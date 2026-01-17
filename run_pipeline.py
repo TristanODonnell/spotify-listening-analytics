@@ -11,3 +11,7 @@ def run_pipeline():
     write_clean.write_clean(transformed_df)
 
 
+def main():
+    run_pipeline()
+if __name__ == "__main__":
+    main()

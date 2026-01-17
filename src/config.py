@@ -32,7 +32,7 @@ CLEANED_DIR = DATA_DIR / "cleaned"
 RAW_SCROBBLES_FILENAME = "scrobbles-seekistguy.csv"
 
 # Canonical cleaned dataset output
-CLEANED_DATASET_FILENAME = "listening_cleaned.csv"
+CLEANED_DATASET_FILENAME = "listening_cleaned.parquet"
 
 # Optional metadata output
 RUN_METADATA_FILENAME = "run_metadata.json"
@@ -54,7 +54,7 @@ CANONICAL_COLUMNS = [
 
 REQUIRED_COLUMNS = [
     "timestamp_utc",
-    "track",
+    "track_id",
     "artist",
 
 ]
