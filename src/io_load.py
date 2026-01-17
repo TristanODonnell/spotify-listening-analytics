@@ -14,9 +14,6 @@ def remap_columns(raw: DataFrame) -> DataFrame:
     mapped_scrobbles = raw.rename(columns=config.RAW_TO_CANONICAL_COLUMN_MAP)
     return mapped_scrobbles
 
-if __name__ == "__main__":
-    data = load_raw_scrobbles()
-    data_mapped = remap_columns(data)
-    print(data_mapped.columns)
+
 
 
