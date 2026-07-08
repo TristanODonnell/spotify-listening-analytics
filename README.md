@@ -80,7 +80,7 @@ User listening data is accessed via Spotify’s Web API with user authorization 
 - Pandas, NumPy
 - Matplotlib / Seaborn (EDA)
 - Plotly (final visualizations)
-- Scikit-learn
+
 
 ## Limitations
 - Genre labeling ambiguity
